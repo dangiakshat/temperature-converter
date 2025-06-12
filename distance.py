@@ -1,8 +1,6 @@
 import streamlit as st
 
-st.image("https://github.com/dangiakshat/temperature-converter/blob/main/logo.png", width=150)
-
-
+st.image("https://raw.githubusercontent.com/dangiakshat/temperature-converter/main/logo.png", width=150)
 
 
 # Title
