@@ -27,7 +27,12 @@ def convert_distance(value, from_u, to_u):
     converted_value = value_in_meters / units_in_meters[to_u]
     return converted_value
 
+
 # Convert on button click
 if st.button("Convert"):
     result = convert_distance(distance, from_unit, to_unit)
     st.success(f"{distance} {from_unit} = {result:.4f} {to_unit}")
+
+
+
+st.markdown("© 2025 Akshat Singh Dangi. All rights reserved.", unsafe_allow_html=True)
